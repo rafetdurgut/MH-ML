@@ -1,0 +1,122 @@
+2022-07-20 17:27:01,937 - opytimizer.spaces.search — INFO — Overriding class: Space -> SearchSpace.
+2022-07-20 17:27:01,939 - opytimizer.core.space — DEBUG — Agents: 30 | Size: (7, 1) | Lower Bound: [ 0.1 10.   3.   1.   0.6  0.   0.5] | Upper Bound: [9.e-01 2.e+02 2.e+01 6.e+00 1.e+00 1.e-04 1.e+00] | Built: True.
+2022-07-20 17:27:01,942 - opytimizer.spaces.search — INFO — Class overrided.
+2022-07-20 17:27:01,942 - opytimizer.optimizers.swarm.pso — INFO — Overriding class: Optimizer -> PSO.
+2022-07-20 17:27:01,943 - opytimizer.core.optimizer — DEBUG — Algorithm: PSO | Custom Parameters: None | Built: True.
+2022-07-20 17:27:01,943 - opytimizer.optimizers.swarm.pso — INFO — Class overrided.
+2022-07-20 17:27:01,943 - opytimizer.core.function — INFO — Creating class: Function.
+2022-07-20 17:27:01,943 - opytimizer.core.function — DEBUG — Function: objective_function | Built: True.
+2022-07-20 17:27:01,943 - opytimizer.core.function — INFO — Class created.
+2022-07-20 17:27:01,943 - opytimizer.opytimizer — INFO — Creating class: Opytimizer.
+2022-07-20 17:27:01,943 - opytimizer.opytimizer — DEBUG — Space: <opytimizer.spaces.search.SearchSpace object at 0x11bfddea0> | Optimizer: <opytimizer.optimizers.swarm.pso.PSO object at 0x11bfddc30>| Function: <opytimizer.core.function.Function object at 0x11bfdf5e0>.
+2022-07-20 17:27:01,943 - opytimizer.opytimizer — INFO — Class created.
+2022-07-20 17:27:01,943 - opytimizer.opytimizer — INFO — Starting optimization task.
+2022-07-20 17:27:07,807 - opytimizer.opytimizer — INFO — Iteration 1/100
+2022-07-20 17:27:11,882 - opytimizer.opytimizer — INFO — Fitness: 0.1609071166501017
+2022-07-20 17:27:11,883 - opytimizer.opytimizer — INFO — Position: [[6.19995481e-01]
+ [1.14933472e+02]
+ [5.06459198e+00]
+ [3.63367841e+00]
+ [9.03018118e-01]
+ [7.05861250e-05]
+ [8.31434176e-01]]
+2022-07-20 17:27:11,883 - opytimizer.opytimizer — INFO — Iteration 2/100
+2022-07-20 17:27:16,102 - opytimizer.opytimizer — INFO — Fitness: 0.1609071166501017
+2022-07-20 17:27:16,103 - opytimizer.opytimizer — INFO — Position: [[6.19995481e-01]
+ [1.14933472e+02]
+ [5.06459198e+00]
+ [3.63367841e+00]
+ [9.03018118e-01]
+ [7.05861250e-05]
+ [8.31434176e-01]]
+2022-07-20 17:27:16,103 - opytimizer.opytimizer — INFO — Iteration 3/100
+2022-07-20 17:27:19,225 - opytimizer.opytimizer — INFO — Fitness: 0.1609071166501017
+2022-07-20 17:27:19,226 - opytimizer.opytimizer — INFO — Position: [[6.19995481e-01]
+ [1.14933472e+02]
+ [5.06459198e+00]
+ [3.63367841e+00]
+ [9.03018118e-01]
+ [7.05861250e-05]
+ [8.31434176e-01]]
+2022-07-20 17:27:19,226 - opytimizer.opytimizer — INFO — Iteration 4/100
+2022-07-20 17:27:22,493 - opytimizer.opytimizer — INFO — Fitness: 0.15639642680928723
+2022-07-20 17:27:22,494 - opytimizer.opytimizer — INFO — Position: [[6.22769758e-01]
+ [1.26161654e+02]
+ [4.42756856e+00]
+ [3.52723485e+00]
+ [8.95167633e-01]
+ [7.53153498e-05]
+ [8.37202631e-01]]
+2022-07-20 17:27:22,494 - opytimizer.opytimizer — INFO — Iteration 5/100
+2022-07-20 17:27:29,742 - opytimizer.opytimizer — INFO — Fitness: 0.15639642680928723
+2022-07-20 17:27:29,743 - opytimizer.opytimizer — INFO — Position: [[6.22769758e-01]
+ [1.26161654e+02]
+ [4.42756856e+00]
+ [3.52723485e+00]
+ [8.95167633e-01]
+ [7.53153498e-05]
+ [8.37202631e-01]]
+2022-07-20 17:27:29,743 - opytimizer.opytimizer — INFO — Iteration 6/100
+2022-07-20 17:27:34,081 - opytimizer.opytimizer — INFO — Fitness: 0.15639642680928723
+2022-07-20 17:27:34,082 - opytimizer.opytimizer — INFO — Position: [[6.22769758e-01]
+ [1.26161654e+02]
+ [4.42756856e+00]
+ [3.52723485e+00]
+ [8.95167633e-01]
+ [7.53153498e-05]
+ [8.37202631e-01]]
+2022-07-20 17:27:34,082 - opytimizer.opytimizer — INFO — Iteration 7/100
+2022-07-20 17:27:37,717 - opytimizer.opytimizer — INFO — Fitness: 0.15341396982053124
+2022-07-20 17:27:37,718 - opytimizer.opytimizer — INFO — Position: [[6.23641492e-01]
+ [1.29689774e+02]
+ [4.22740305e+00]
+ [3.49378815e+00]
+ [8.92700854e-01]
+ [7.68013669e-05]
+ [8.39015196e-01]]
+2022-07-20 17:27:37,718 - opytimizer.opytimizer — INFO — Iteration 8/100
+2022-07-20 17:27:41,498 - opytimizer.opytimizer — INFO — Fitness: 0.15027169329838352
+2022-07-20 17:27:41,499 - opytimizer.opytimizer — INFO — Position: [[6.24587865e-01]
+ [1.32862902e+02]
+ [4.47933482e+00]
+ [3.51369469e+00]
+ [8.92395845e-01]
+ [7.45323462e-05]
+ [8.42902080e-01]]
+2022-07-20 17:27:41,499 - opytimizer.opytimizer — INFO — Iteration 9/100
+2022-07-20 17:27:45,424 - opytimizer.opytimizer — INFO — Fitness: 0.15027169329838352
+2022-07-20 17:27:45,426 - opytimizer.opytimizer — INFO — Position: [[6.24587865e-01]
+ [1.32862902e+02]
+ [4.47933482e+00]
+ [3.51369469e+00]
+ [8.92395845e-01]
+ [7.45323462e-05]
+ [8.42902080e-01]]
+2022-07-20 17:27:45,426 - opytimizer.opytimizer — INFO — Iteration 10/100
+2022-07-20 17:27:52,220 - opytimizer.opytimizer — INFO — Fitness: 0.14520160231659518
+2022-07-20 17:27:52,220 - opytimizer.opytimizer — INFO — Position: [[6.30358354e-01]
+ [1.36459334e+02]
+ [4.35983163e+00]
+ [3.52662072e+00]
+ [8.93878717e-01]
+ [7.55769714e-05]
+ [8.46178073e-01]]
+2022-07-20 17:27:52,221 - opytimizer.opytimizer — INFO — Iteration 11/100
+2022-07-20 17:27:56,309 - opytimizer.opytimizer — INFO — Fitness: 0.14520160231659518
+2022-07-20 17:27:56,311 - opytimizer.opytimizer — INFO — Position: [[6.30358354e-01]
+ [1.36459334e+02]
+ [4.35983163e+00]
+ [3.52662072e+00]
+ [8.93878717e-01]
+ [7.55769714e-05]
+ [8.46178073e-01]]
+2022-07-20 17:27:56,311 - opytimizer.opytimizer — INFO — Iteration 12/100
+2022-07-20 17:28:00,120 - opytimizer.opytimizer — INFO — Fitness: 0.1392728795900554
+2022-07-20 17:28:00,121 - opytimizer.opytimizer — INFO — Position: [[6.28858180e-01]
+ [1.34516081e+02]
+ [4.29894412e+00]
+ [3.52938020e+00]
+ [8.93971474e-01]
+ [7.48657501e-05]
+ [8.41474206e-01]]
+2022-07-20 17:28:00,121 - opytimizer.opytimizer — INFO — Iteration 13/100
