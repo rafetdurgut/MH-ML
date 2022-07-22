@@ -53,7 +53,7 @@ def objective_function(p):
 #%% Estabilish the MH
 # eta, n_estimators, max_depth, min_child_weight, max_delta_step, subsample, alpha, lambda
 for run in range(30):
-    space = SearchSpace(30, 7, lbs, ubs)
+    space = SearchSpace(20, 7, lbs, ubs)
     optimizer = PSO()
     function = Function(objective_function)
     logger = Logger("output.data")
@@ -64,4 +64,5 @@ for run in range(30):
     for h in opt.history.best_agent:
         cg.append(h[1])
     with open(f"results-{run}.json", "w") as outfile:
+        cg.append(opt.history.best_agent[-1])
         json.dump(cg, outfile)
